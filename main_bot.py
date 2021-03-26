@@ -3,7 +3,7 @@ import configparser
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, MessageHandler, Filters
 import urllib.request
-LINK = 'https://ulkabo.github.io/bot-10-00/data/'
+LINK = 'https://xremia.github.io/xr.bot/'
 '''
 TOK = None
 config = configparser.ConfigParser()
@@ -186,7 +186,7 @@ def conditions(update, context):
 
     
 def main():
-    updater = Updater("1549956005:AAGbQQsAjmO6ZWHxY4hdpIKCITrZglKQRC0", use_context=True)
+    updater = Updater("1613327557:AAFo6TO6P5T4mEPLxfi1aRR6X58FRBV3gAo", use_context=True)
 
     dp = updater.dispatcher
 
